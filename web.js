@@ -1,5 +1,5 @@
 var fs = require('fs');
-var buffer = fs.readFileSync('/etc/passwd');
+var buffer = fs.readFileSync('index.html');
 
 
 var express = require('express');
